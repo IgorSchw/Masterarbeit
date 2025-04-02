@@ -1,2 +1,28 @@
-# Masterarbeit
-Masterarbeit zum Thema Optimierung der räumlichen Positionierung eines Roboterarms für den vollautomatischen Spritzbetonauftrag
+# Masterarbeit: Optimierung der räumlichen Positionierung eines Roboterarms für den vollautomatischen Spritzbetonauftrag
+
+# Python-Skripte zur Masterarbeit
+
+Dieses Repository enthält die im Rahmen meiner Masterarbeit erstellten Python-Skripte und Jupyter Notebooks. Die Arbeit wurde am Management Center Innsbruck im Studiengang Umwelt-, Verfahrens- und Energietechnik (berufsbegleitend) angefertigt.
+
+## 📚 Thema der Masterarbeit
+
+Ziel dieser Masterarbeit war die Entwicklung eines Korrekturmodells für das kinematische Modell einer Maschine zum vollautomatischen Spritzbetonauftrag (vorwiegend im Tunnelbau) sowie die Konzeption und Umsetzung eines robusten Einmessverfahrens nach jeder Umpositionierung der Maschine. Zusätzlich wurde das finale Ergebnis anhand eines vollautomatisch gefahrenen Pfads untersucht. Dies erfolgte auf zwei Weisen. Einmal durch die Vermessung des Spritzpfades (ohne Spritzbetonauftrag) mithilfe eines Kamerasystems und durch finale Spritzversuche, bei welchen Spritzbeton unter sich ändernden Spritzparametern auf eine Versuchswand aufgetragen wurde. 
+
+Zur Interpretation der Ergebnisse, zur Ermittlung von Transformationen und zur Visualisierung bestimmter Ergebnisse wurden verschiedene Python-Skripte und Jupyter Notebooks entwickelt.
+
+## 📁 Struktur des Repositories
+
+- `notebooks/` – Jupyter Notebooks für Auswertungen, Analysen und Visualisierungen  
+- `data/` – Rohdaten im `.csv`-Format (anonymisiert oder Beispiel-Daten)  
+- `results/` – erzeugte Abbildungen, Diagramme und Ergebnis-Exports  
+- `scripts/` – unterstützende Python-Skripte und Hilfsfunktionen  
+- `requirements.txt` – Liste der verwendeten Python-Bibliotheken  
+- `LICENSE` – Lizenzinformationen  
+- `README.md` – dieses Dokument
+
+## ⚙️ Verwendung
+
+1. **Repository klonen:**
+   ```bash
+   git clone https://github.com/dein-nutzername/masterarbeit-code.git
+   cd masterarbeit-code
