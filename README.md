@@ -1,7 +1,5 @@
 # Masterarbeit: Optimierung der räumlichen Positionierung eines Roboterarms für den vollautomatischen Spritzbetonauftrag
 
-# Python-Skripte zur Masterarbeit
-
 Dieses Repository enthält die im Rahmen meiner Masterarbeit erstellten Python-Skripte und Jupyter Notebooks. Die Arbeit wurde am Management Center Innsbruck im Studiengang Umwelt-, Verfahrens- und Energietechnik (berufsbegleitend) angefertigt.
 
 ## 📚 Thema der Masterarbeit
