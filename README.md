@@ -10,7 +10,7 @@ Zur Interpretation der Ergebnisse, zur Ermittlung von Transformationen und zur V
 
 ## 📁 Struktur des Repositories
 
-- `data/` – Rohdaten im `.csv`-Format (anonymisiert oder Beispiel-Daten)  
+- `data/` – Rohdaten im `.csv`-Format
 - `notebooks/` – Jupyter Notebooks für Auswertungen, Analysen und Visualisierungen  
 - `results/` – erzeugte Abbildungen, Diagramme und Ergebnis-Exports  
 - `requirements.txt` – Liste der verwendeten Python-Bibliotheken  
