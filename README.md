@@ -21,5 +21,5 @@ Zur Interpretation der Ergebnisse, zur Ermittlung von Transformationen und zur V
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/dein-nutzername/masterarbeit-code.git
+   git clone https://github.com/IgorSchw/Masterarbeit.git
    cd masterarbeit-code
