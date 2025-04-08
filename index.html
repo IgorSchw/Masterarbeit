@@ -2,15 +2,59 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Meine Dateien</title>
+    <title>Projektübersicht</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 30px auto;
+        }
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: translateY(-3px);
+        }
+        a {
+            text-decoration: none;
+            color: #007acc;
+            font-size: 18px;
+            display: block;
+        }
+        a:hover {
+            color: #005f99;
+        }
+    </style>
 </head>
 <body>
-    <h1>Verzeichnis meines Projekts</h1>
+    <h1>📂 Verzeichnis meines Projekts</h1>
 
     <ul>
-        <li><a href="results/Diagramme/3D_Vektor_Plot_Optimierung_Basiskoordinatensystem.html">3D-Vektorplot der Transformationsoptimierung</a></li>
-        <li><a href="results/Diagramme/3D_Vektor_Plot_Optimierung_Halbkreise.html">3D-Vektorplot der Halbkreismessungen</a></li>
-        <li><a href="results/Diagramme/3D_Vektor_Plot_Validierung_Wandprofil.html">3D-Vektorplot der Wandprofile</a></li>
+        <li><a href="results/Diagramme/3D_Vektor_Plot_Optimierung_Basiskoordinatensystem.html" target="_blank">
+            3D-Vektorplot der Transformationsoptimierung
+        </a></li>
+        <li><a href="results/Diagramme/3D_Vektor_Plot_Optimierung_Halbkreise.html" target="_blank">
+            3D-Vektorplot der Halbkreismessungen
+        </a></li>
+        <li><a href="results/Diagramme/3D_Vektor_Plot_Validierung_Wandprofil.html" target="_blank">
+            3D-Vektorplot der Wandprofile
+        </a></li>
     </ul>
 
 </body>
